@@ -5,8 +5,9 @@
 ## RAILS INSTALLATION
 
 ## RAILS FIRST APPLICATION
-  ### RUN RAILS APPLICATION
-  ### RAILS CONSOLE
-  ### RAILS ROUTES
-  ### RAILS MIGRATION
+  ### Create rails application
+  ### Run rails application
+  ### Rails console
+  ### Rails migration
+  ### Rails routes
   ### MVC
