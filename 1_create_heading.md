@@ -1,31 +1,12 @@
-# BASIC KNOWLEDGE REQUIRED BEFORE LEARNING RAILS
+# LEARN RAILS
 
-## HTML
+## INTRODUCTION
 
-  ### HTML introduction
-  ### HTML basics
-  ### HTML Forms
+## RAILS INSTALLATION
 
-## CSS
-  ### CSS Introduction
-  ### CSS Selectors
-  ### Layout
-
-## JAVASCRIPT
-  ### Introduction to javascript
-  ### Javascrip Syntax
-  ### Javascript Operators
-  ### Function
-  ### Events
-
-## RUBY
-  ### Ruby Introduction
-  ### Installation
-  ### Ruby program
-  ### Operators
-  ### Variables and assignment
-
-## GIT
-  ### Installation
-  ### Configuration
-  ### Github
+## RAILS FIRST APPLICATION
+  ### RUN RAILS APPLICATION
+  ### RAILS CONSOLE
+  ### RAILS ROUTES
+  ### RAILS MIGRATION
+  ### MVC
