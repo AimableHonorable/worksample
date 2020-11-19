@@ -8,6 +8,6 @@
   ### Create rails application
   ### Run rails application
   ### Rails console
-  ### Rails migration
+  ### Rails scaffolding
   ### Rails routes
   ### MVC
