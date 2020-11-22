@@ -1,27 +1,16 @@
-## Create new application
-### Choose a rails version to use
-We know that to create a new rails application we use **rails new** command
+## Understanding self
+self points to the instance object itself. Use self when calling an instance object in a class or when calling that instance object.
+If your code is inside an instance method, self is an instance of that class. In other words, self is an object.:
 
-Example:
+**Example of self:**
+Let's run this program
 ```
-rails new first_app -d postgresql
+class Author
+    puts "Class name is: #{self}"
+end
 ```
-When you have multiple versions of rails on your computer, you can specify one rails version to use while creating the application.
-
-Let's assume that you have both rails (6.0.3.4, 6.0.0.0), and you need to use rails (6.0.0.0) for your application. All you have to do is just to add the version after rails.
-
-Example:
+The output will be:
 ```
-rails _6.0.0.0_ new first_app -d postgresql
+Class name is: Author
 ```
-You can see also how to change rails version for an existing project.
-
-### Change rails version for an existing project
-For an existing version you can change the version of rails in **Gemfile**. Gemfile is a file that defines all gems used by the application it is located in **App** directory.
-
-In Gemfile search for rails and change the version number.
-
-after modifying rails version run:
-```
-bundle install
-```
+As you can see in the above program, a valiable`#{self}` points to that self class and it prints the class name.
