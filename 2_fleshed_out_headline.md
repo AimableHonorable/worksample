@@ -12,16 +12,23 @@ If you don't have those skills so far, read more about them and we'll see you la
 ## RAILS INSTALLATION
 Before installing rails on your computer you must have ruby installed first.
 open your terminal and write the following command to check whether you have ruby installed.
+
 ```
 ruby -v
 ```
 if you don't have ruby installed on your computer let's [install ruby](https://www.ruby-lang.org/en/documentation/installation/).
-If ruby is installed then let's move to rails installation.
+If ruby is installed then let's move to rails installation. **NB:This installation is for linux operating system!**
 ### Install node.js
 Ruby on Rails requires a JavaScript runtime to compile the Rails asset pipeline. And for the Rails development on Ubuntu Linux, it's best to install and using Nodejs as the Javascript runtime.
 Add the nodejs nodesource repository to the system.
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+```
+if you don't have curl installed on your system you will face an error so install it and go back to the above command
+
+install curl:
+```
+sudo snap install curl
 ```
 Install the latest version nodejs and some additional packages using the apt command below.
 ```
